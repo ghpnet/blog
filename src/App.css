@@ -1,0 +1,178 @@
+.App {
+  text-align: center;
+  /* margin-top: 150px; */
+  padding-top: 0px;
+  background: linear-gradient(180deg, #ffffff, rgba(156, 156, 156, 0.548));
+  /* background-image: url("https://caelum-online-public.s3.amazonaws.com/assets-imersaodev/Background.png"); */
+  /* height: 100vh;
+  width: 100vw; */
+}
+
+body {
+  padding-top: 0px;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+.Color {
+  padding: 5px;
+}
+.Width{
+  padding: 5px;
+}
+.Container{
+  margin: 100px auto;
+  border: 1px solid #CCC;
+  border-radius: 1em;
+  background-color: #ffffff;
+  width: 600px;
+  height: 200px;
+}
+form {
+  margin: 0 auto;
+  width: 400px;
+  padding: 1em;
+  border: 1px solid #CCC;
+  border-radius: 1em;
+}
+label {
+  display: inline-block;
+  width: 90px;
+  text-align: left;
+}
+input {
+  padding: 2px;
+  font: 1em sans-serif;
+  width: 300px;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+  border: 1px solid #999;
+}
+.Action {
+  padding-left: 90px; 
+}
+
+
+h1 {
+  width: 100%;
+  margin: auto;
+  text-align: center;
+  padding-top: 100px;
+  color: #C4A70E;
+  font-size: 46px;
+  font-weight: 600;
+  padding: 25px 10px 15px;
+}
+
+h3 {
+  width: 100%;
+  margin: auto;
+  text-align: center;
+  padding-top: 100px;
+  color: rgb(191, 184, 150);
+  font-size: 30px;
+  font-weight: 600;
+  padding: 25px 60px 15px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+p {
+  color: #000000;
+  font-size: 14px;
+  font-weight: 200;
+  line-height: 22px;
+  padding: 10px;
+  text-align: center;
+  display: block;
+}
+
+
+input[type=text], input[type=file], select, textarea, input[type=password] {
+  width: 100%; 
+  padding: 12px;
+  border: 1px solid #ccc;
+  border-radius: 4px; 
+  box-sizing: border-box;
+  margin-top: 6px; 
+  margin-bottom: 16px;
+  resize: vertical;
+}
+ 
+input[type=submit] {
+  background-color: #4CAF50;
+  color: white;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+ 
+input[type=submit]:hover {
+  background-color: #45a049;
+}
+ 
+.container {
+  border-radius: 5px;
+  background-color: #f2f2f2;
+  padding: 20px;
+  max-width: 600px;
+}
+
+@media screen and (max-width: 480px){
+.fotoanuncio{
+  float: left;
+  margin: 0;
+  border: none;
+  padding: 10px;
+  background: #fff;
+  border: 1px solid #ddd;
+  width: 600px;
+  height: auto;
+};
+}
+
+@media screen and (min-width: 480px){
+  .fotoanuncio{
+    /* float: left; */
+    margin: 0;
+    border: none;
+    padding: 10px;
+    background: #fff;
+    border: 1px solid #ddd;
+    width: 60%;
+    height: auto;
+  };
+  }
