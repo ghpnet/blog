@@ -1,1 +1,1 @@
-
+API em PHP que recebe os dados do ReactJS e retorna JSON com as informações!
