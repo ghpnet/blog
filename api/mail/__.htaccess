@@ -1,0 +1,13 @@
+#Ajuste o fuso horário padrão
+SetEnv TZ America/Sao_Paulo
+
+<IfModule mod_rewrite.c> 
+RewriteEngine on
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteRule ^(.*)$ index.cgi?acao=$1 [L,QSA] 
+</IfModule>
+
+<IfModule mod_headers.c>
+Header set Access-Control-Allow-Origin "*"
+</IfModule>
